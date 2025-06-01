@@ -1,5 +1,5 @@
 // services/email.js - Email service using Nodemailer
-const nodemailer = require('nodemailer').default || require('nodemailer');
+const nodemailer = require('nodemailer');
 
 // Create transporter
 const transporter = nodemailer.createTransport({
